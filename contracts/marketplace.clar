@@ -22,7 +22,7 @@
 ;; )
 
 
-(define-constant genuine-contract 'ST16KQ2VQSSJFGQJPNYC04P1SGVP77C760AJH38F2.genuine-v1)
+(define-constant genuine-contract .genuine)
 
 (define-map on-sale
   {owner: principal, tradables: principal, tradable-id: uint}

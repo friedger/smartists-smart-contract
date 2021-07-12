@@ -1,8 +1,4 @@
-(define-trait genuine-market-trait
-  (
-    (get-pending-licensing (uint principal principal) (response bool bool))
-  )
-)
+(use-trait marketplace-trait .marketplace-trait.marketplace-trait)
 
 (define-trait genuine-trait
   (
@@ -18,6 +14,6 @@
     ;; Transfer from the sender to a new principal
     (transfer (uint principal principal) (response bool uint))
 
-    (attach-license (uint principal principal <genuine-market-trait>) (response bool bool))
+    (attach-license (uint principal principal <marketplace-trait>) (response bool bool))
   )
 )

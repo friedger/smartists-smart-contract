@@ -1,6 +1,6 @@
 ;; GENUINE-CONTRACT
 (impl-trait .genuine-trait.genuine-trait)
-(use-trait genuine-market-trait .genuine-trait.genuine-market-trait)
+(use-trait genuine-market-trait .marketplace-trait.marketplace-trait)
 
 ;; (define-trait nft-trait
 ;;   (

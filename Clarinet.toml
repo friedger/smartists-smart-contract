@@ -4,11 +4,11 @@ name = "smartists-smart-contract"
 
 [contracts.genuine]
 path = "contracts/genuine.clar"
-depends_on = ["genuine-trait"]
+depends_on = ["genuine-trait", "marketplace-trait"]
 
 [contracts.genuine-trait]
 path = "contracts/genuine-trait.clar"
-depends_on = []
+depends_on = ["marketplace-trait"]
 
 [contracts.marketplace]
 path = "contracts/marketplace.clar"
