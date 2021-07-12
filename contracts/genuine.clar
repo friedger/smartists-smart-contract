@@ -1,6 +1,6 @@
 ;; GENUINE-CONTRACT
-(impl-trait 'ST16KQ2VQSSJFGQJPNYC04P1SGVP77C760AJH38F2.genuine-trait.genuine-trait)
-(use-trait genuine-market-trait 'ST16KQ2VQSSJFGQJPNYC04P1SGVP77C760AJH38F2.genuine-trait.genuine-market-trait)
+(impl-trait .genuine-trait.genuine-trait)
+(use-trait genuine-market-trait .genuine-trait.genuine-market-trait)
 
 ;; (define-trait nft-trait
 ;;   (

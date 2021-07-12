@@ -2,6 +2,21 @@
 [project]
 name = "smartists-smart-contract"
 
-[contracts]
+[contracts.genuine]
+path = "contracts/genuine.clar"
+depends_on = ["genuine-trait"]
+
+[contracts.genuine-trait]
+path = "contracts/genuine-trait.clar"
+depends_on = []
+
+[contracts.marketplace]
+path = "contracts/marketplace.clar"
+depends_on = ["marketplace-trait"]
+
+[contracts.marketplace-trait]
+path = "contracts/marketplace-trait.clar"
+depends_on = []
+
 
 [notebooks]
