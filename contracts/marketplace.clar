@@ -1,6 +1,6 @@
 ;; MARKET-CONTRACT
-(impl-trait 'ST16KQ2VQSSJFGQJPNYC04P1SGVP77C760AJH38F2.marketplace-trait-v2.marketplace-trait)
-(use-trait market-genuine-trait 'ST16KQ2VQSSJFGQJPNYC04P1SGVP77C760AJH38F2.marketplace-trait-v2.market-genuine-trait)
+(impl-trait 'ST16KQ2VQSSJFGQJPNYC04P1SGVP77C760AJH38F2.marketplace-trait.marketplace-trait)
+(use-trait market-genuine-trait 'ST16KQ2VQSSJFGQJPNYC04P1SGVP77C760AJH38F2.marketplace-trait.market-genuine-trait)
 
 ;; This trait is a subset of the functions of sip-009 trait for NFTs.
 ;; (define-trait my-market-trait
